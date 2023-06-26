@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--black);
+}
+
+:root {
+    --black: #000;
+    --yellow: #f0eb8d;
+    --white: #fff;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: var(--black);
+    border-bottom: 1px solid var(--yellow);
+}
+
+.h-container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h-c-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h-c-l-logo {
+    margin-right: 50px;
+}
+
+.h-c-l-logo h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--yellow);
+    font-family: "Lostar", sans-serif;
+}
+
+.h-c-links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h-c-links ul li {
+    list-style: none;
+}
+
+.h-c-links ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--white);
+    font-family: "A", sans-serif;
+}
+
+.h-c-account ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h-c-account ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.h-c-account ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--black);
+    background-color: var(--yellow);
+    border-radius: 10px;
+    font-family: "A", sans-serif;
+}
+
+.h-c-account-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h-c-account-user img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.h-c-account-user h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--yellow);
+    font-family: "A", sans-serif;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 489px;
+}
+
+.f-container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.f-c-row1 {
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 120px;
+}
+
+.f-c-r1-logo h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--yellow);
+    font-family: "Lostar", sans-serif;
+}
+
+.f-c-r1-all {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.f-c-r1-a-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "A", sans-serif;
+    color: var(--white);
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.f-c-r1-a-box ul {
+    padding: 0px 60px 0px 20px;
+}
+
+.f-c-r1-a-box ul li {
+    list-style: none;
+}
+
+.f-c-r1-a-box ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "A", sans-serif;
+    color: var(--white);
+}
+
+.f-c-row2 {
+    width: 100%;
+    height: 189px;
+    display: flex;
+    justify-content: space-between;
+    align-items: starts;
+    padding-top: 40px;
+}
+
+.f-c-row2-left h4,
+.f-c-row2-right h4 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "A", sans-serif;
+    color: var(--white);
+    margin-right: 20px;
+}
+
+.f-c-row2-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.f-c-row2-right img {
+    margin-left: 20px;
+}

@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Lostar;
+    src: url("../front/Lostar.ttf");
+}
+
+@font-face {
+    font-family: UTMAptima;
+    src: url("../front/UTMAptima.ttf");
+}
+
+@font-face {
+    font-family: UTMAptimaBold;
+    src: url("../front/UTMAptimaBold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: UTMAptimaItalic;
+    src: url("../front/UTMAptimaItalic.ttf");
+}
+
+html {
+    font-family: UTMAptima;
+}
+
+/* css chung dung nhieu */
+
+.btn-color-join {
+    width: 219px;
+    height: 52px;
+    border: none;
+    outline: none;
+    background-color: #f0eb8d;
+    border-radius: 10px;
+    pad: 15px 75px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.control-side {
+    position: absolute;
+    width: 52px !important;
+    height: 52px !important;
+    border-radius: 50% !important;
+    background-color: #f0eb8d !important;
+    top: 50%;
+    transform: translateY(-50%) !important;
+    border: none !important;
+    outline: none !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    cursor: pointer;
+    min-width: auto !important;
+}
+
+.control-side svg {
+    height: 28px;
+}
+
+.control-side.prev {
+    left: -100px;
+    transform: translateY(-50%) rotate(180deg) !important;
+}
+
+.control-side.next {
+    right: -100px;
+}

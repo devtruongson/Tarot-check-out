@@ -1,0 +1,86 @@
+.daili-tarot-item-wp {
+    background-color: #000;
+    position: relative;
+    border: 2px solid #f0eb8d;
+    width: 1164px;
+    height: 658px;
+    color: #fff;
+    padding: 0 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    margin-bottom: 30px;
+}
+
+.banner-daili-tarot-item {
+    position: absolute;
+    width: 269px;
+    height: 100%;
+}
+
+.banner-daili-tarot-item.left {
+    left: 0;
+}
+
+.banner-daili-tarot-item.right {
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.content-wrapper-daili-tarot-item {
+    display: flex;
+    gap: 40px;
+}
+
+.content-wrapper-daili-tarot-item-left img {
+    width: 290px;
+    height: 526px;
+    border-radius: 14px;
+    border: 3px solid #f0eb8d;
+}
+
+.content-wrapper-daili-tarot-item-right {
+    width: 597px;
+}
+
+.content-wrapper-daili-tarot-item-right h3 {
+    display: flex;
+    justify-content: space-between;
+    color: #f0eb8d;
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.content-wrapper-daili-tarot-item-right h3 img {
+    width: 58px;
+    object-fit: cover;
+}
+
+.content-wrapper-daili-tarot-item-right h3 img:last-child {
+    transform: rotate(180deg);
+}
+
+.content-wrapper-daili-tarot-item-right h3 span {
+    line-height: 100%;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.content-wrapper-daili-tarot-item-right div {
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.content-wrapper-daili-tarot-item-right div h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.content-wrapper-daili-tarot-item-right div p {
+    font-size: 14px;
+}
