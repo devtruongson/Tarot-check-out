@@ -279,6 +279,10 @@
     object-fit: cover;
 }
 
+.blog-suggest-top > div:first-child:hover img {
+    opacity: 0.8;
+}
+
 .blog-suggest-top > div:first-child > h3 {
     font-size: 28px;
     font-weight: 700;
@@ -307,6 +311,10 @@
     padding: 10px 20px;
 }
 
+.blog-suggest-top > div:last-child > div:hover img {
+    opacity: 0.8;
+}
+
 .blog-suggest-top > div:last-child > div > div {
     border: 1px solid #f0eb8d;
     border-radius: 2px;
@@ -332,6 +340,11 @@
     gap: 20px;
     margin-top: 30px;
     border: 2px solid #f0eb8d;
+    cursor: pointer;
+}
+
+.blog-suggest-card:hover img {
+    opacity: 0.8;
 }
 
 .blog-suggest-card img {

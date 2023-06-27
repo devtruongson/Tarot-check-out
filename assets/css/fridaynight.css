@@ -186,6 +186,7 @@
     width: 20px;
     height: 20px;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .infor-and-detail-comment--nav span img.dis-like {
@@ -193,13 +194,18 @@
 }
 
 .infor-and-detail-comment--nav.next-feature {
-    display: flex;
+    display: inline-flex;
     gap: 10px;
     align-items: center;
     font-size: 14px;
     color: #f0eb8d;
     font-weight: 700;
     padding: 0;
+    cursor: pointer;
+}
+
+.infor-and-detail-comment--nav.next-feature:hover {
+    opacity: 0.8;
 }
 
 /* Top chat */
@@ -448,6 +454,19 @@
     gap: 10px;
 }
 
+.suggest-video-friday-item:hover {
+    cursor: pointer;
+}
+
+.suggest-video-friday-item:hover div:first-child {
+    opacity: 0.8;
+    transition: all linear.2s;
+}
+
+.suggest-video-friday-item:hover div:last-child h3 {
+    text-decoration: underline;
+}
+
 .suggest-video-friday-item div:first-child {
     width: 198px;
     height: 110px;
@@ -483,4 +502,8 @@
     background-color: #fff;
     border-radius: 50%;
     margin-top: 6px;
+}
+
+.send-comment:hover {
+    opacity: 0.8;
 }

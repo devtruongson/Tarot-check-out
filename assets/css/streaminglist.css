@@ -149,6 +149,10 @@
     cursor: pointer;
 }
 
+.body-content-streaming-list .button-live-now:hover {
+    opacity: 0.8;
+}
+
 .body-content-streaming-list .button-live-now span {
     flex-shrink: 0;
     width: 16px;

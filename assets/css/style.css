@@ -46,6 +46,11 @@ html {
     text-transform: uppercase;
 }
 
+.btn-color-join:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
 .control-side {
     position: absolute;
     width: 52px !important;
@@ -65,6 +70,10 @@ html {
     min-width: auto !important;
 }
 
+.control-side:hover {
+    opacity: 0.8;
+}
+
 .control-side svg {
     height: 28px;
 }
@@ -76,4 +85,8 @@ html {
 
 .control-side.next {
     right: -100px;
+}
+
+.list-Zodiac-item {
+    cursor: pointer;
 }
